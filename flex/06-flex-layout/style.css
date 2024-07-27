@@ -2,9 +2,10 @@
 
 body {
   height: 100vh;
-  margin: 0;
+  margin: 0 200px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  
 }
 
 img {
@@ -28,7 +29,8 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 12px 52px;
+  align-items: center;
+  margin-top: 12px;
 }
 
 a {
@@ -49,6 +51,19 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  margin-top: 200px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
