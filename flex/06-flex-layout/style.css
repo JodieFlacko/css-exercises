@@ -17,6 +17,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -35,6 +36,7 @@ input {
 
 a {
   text-decoration: none;
+  color: gray;
 }
 
 .left-links, .right-links {
@@ -54,10 +56,11 @@ a {
 }
 
 .footer {
+  background-color: lightgray;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 12px;
+  padding: 12px;
 }
 
 .container {
